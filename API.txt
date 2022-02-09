@@ -1,0 +1,110 @@
+//Identify Object Model
+
+/*
+    Users
+        -name
+        -id
+        -email
+        -password
+        -birthday
+        -phoneNumber
+
+    POST
+        -title
+        -body
+        -comments
+        -likes
+        -createdTime
+        -updatedTime
+*/
+
+/*
+    https://example.com/api/users GET
+    https://example.com/api/users POST
+
+    https://example.com/api/users/:id GET
+    https://example.com/api/users/:id PUT/PATCH
+    https://example.com/api/users/:id DELETE
+
+
+
+    https://example.com/api/posts GET
+    https://example.com/api/posts POST
+
+    https://example.com/api/posts/:id GET
+    https://example.com/api/posts/:id POST
+    https://example.com/api/posts/:id PUT
+    https://example.com/api/posts/:id DELETE
+*/
+//Determine Representation
+
+/*
+    [
+        {
+            {
+            name: 'Mozahidul Islam',
+            id: '1',
+            email: 'mozhid@gmail.com',
+            phone: '019744455679',
+            birthday: '11 Nov'
+            },
+            {
+                name: 'Mozahidul Islam',
+                id: '1',
+                email: 'mozhid@gmail.com',
+                phone: '019744455679',
+                birthday: '11 Nov'
+            },
+            {
+                name: 'Mozahidul Islam',
+                id: '1',
+                email: 'mozhid@gmail.com',
+                phone: '019744455679',
+                birthday: '11 Nov'
+            }
+        }
+    ]
+*/
+
+//Single Data Representation
+
+/*  
+    {
+        name: 'Mozahidul Islam',
+        id: '1',
+        email: 'mozhid@gmail.com',
+        phone: '019744455679',
+        birthday: '11 Nov'
+    }
+*/
+
+//JSON
+
+/*
+users:[
+        {
+            {
+                name: 'Mozahidul Islam',
+                id: '1',
+                email: 'mozhid@gmail.com',
+                phone: '019744455679',
+                birthday: '11 Nov'
+            },
+            {
+                name: 'Mozahidul Islam',
+                id: '1',
+                email: 'mozhid@gmail.com',
+                phone: '019744455679',
+                birthday: '11 Nov'
+            },
+            {
+                name: 'Mozahidul Islam',
+                id: '1',
+                email: 'mozhid@gmail.com',
+                phone: '019744455679',
+                birthday: '11 Nov'
+            }
+        }
+    ]
+*/
+    
